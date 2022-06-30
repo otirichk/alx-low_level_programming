@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/*
+ * main - entry point 
+ *
+ * program prints various types on the machine it is compiled and run on
+ */
 int main(void)
 {
 	printf("the size of a character is %d bytes.\n", sizeof(char));
