@@ -25,8 +25,10 @@ int main(void)
 		printf("%d is zero", n);
 	}
 	else
-	i{
+	{
 		printf("%d is negative", n);
 	}
+
 	return (0);
 }
+
