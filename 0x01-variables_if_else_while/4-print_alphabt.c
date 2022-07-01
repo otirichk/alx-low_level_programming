@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	char alph;
+	char al;
 
-	for (alph = 'a'; alph <= 'z'; ++alph)
+	for (al = 'a'; al <= 'z'; ++al)
 	{
-		if (alph != 'e' && alph != 'q')
+		if (al != 'e' && al != 'q')
 		{
-			putchar(alph);
+			putchar(al);
 		}
 	}
 	putchar('\n');
