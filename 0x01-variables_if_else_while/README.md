@@ -9,3 +9,5 @@ This project executes Variables and if-else statements
 3-print_alphabet.c => Prints letters of the alphabet in lower and upper cases; in a single line
 
 4-print_alphabet.c => prints letters of the alphabet in except 'e' and 'q' ; in lowercase
+
+5-print_numbers.c => print all numbers less from 0 to 9
