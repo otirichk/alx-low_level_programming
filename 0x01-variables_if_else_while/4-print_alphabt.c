@@ -15,6 +15,7 @@ int main(void)
 	while (alph != 'e' && alph != 'q')
 	{
 		putchar(alph);
+		++alph;
 	}
 	putchar('\n');
 	return (0);
