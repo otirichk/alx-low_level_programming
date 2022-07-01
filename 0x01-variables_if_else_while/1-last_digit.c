@@ -26,7 +26,7 @@ int main(void)
 	}
 	if (n2 == 0)
 	{
-		printf("%d and 0\n", n2);
+		printf("%d and is 0\n", n2);
 	}
 	else if (n2 < 6 && n2 != 0)
 	{
