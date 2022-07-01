@@ -7,3 +7,5 @@ This project executes Variables and if-else statements
 2-print_alphabet.c => Prints letters of the alphabet in lower case
 
 3-print_alphabet.c => Prints letters of the alphabet in lower and upper cases; in a single line
+
+4-print_alphabet.c => prints letters of the alphabet in except 'e' and 'q' ; in lowercase
