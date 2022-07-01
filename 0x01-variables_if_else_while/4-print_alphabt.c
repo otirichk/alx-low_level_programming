@@ -12,13 +12,12 @@ int main(void)
 {
 	char alph;
 
-	while (alph <= 'z')
+	for (alph = 'a'; alph <= 'z'; ++alph)
 	{
 		if (alph != 'e' && alph != 'q')
 		{
 			putchar(alph);
 		}
-		++alph;
 	}
 	putchar('\n');
 	return (0);
