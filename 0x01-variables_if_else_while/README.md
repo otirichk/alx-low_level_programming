@@ -13,3 +13,5 @@ This project executes Variables and if-else statements
 5-print_numbers.c => print all numbers less from 0 to 9
 
 6-print_numberz.c => prints integers less than 10 using putchar function
+
+7-print_tebahpla.c => prints lowercase alphabets in reverse
