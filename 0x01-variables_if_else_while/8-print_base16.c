@@ -9,11 +9,16 @@
 
 int main(void)
 {
-	char Hex;
+	char hex;
+	int num;
 
-	for (Hex = 0; Hex <= 15; Hex++)
+	for (num = 0; num < 10; num++)
 	{
-		putchar(Hex);
+		putchar((num % 10) + '0');
+	}
+	for (hex = 'a'; hex <= 'f'; hex++)
+	{
+		putchar(hex);
 	}
 	putchar('\n');
 	return (0);
