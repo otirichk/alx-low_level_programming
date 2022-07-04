@@ -12,20 +12,24 @@ int main(void)
 {
 	int Dig1, Dig2, Dig3;
 
-	for (Dig1 = 0; Dig1 <= 7; Dig1++)
+	for (Dig1 = 48; Dig1 <= 55; Dig1++)
 	{
-		for (Dig2 = 0; Dig2 <= 8; Dig2++)
+		for (Dig2 = Dig1 + 1; Dig2 <= 56; Dig2++)
 		{
-			for (Dig3 = 0; Dig3 <= 9; Dig3++)
+			for (Dig3 = Dig2 + 1; Dig3 <= 57; Dig3++)
 			{
 				putchar(Dig1);
 				putchar(Dig2);
 				putchar(Dig3);
+				if (Dig1 == 55 && Dig2 == 56 && Dig3 == 57)
+				{
+					continue;
+				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
-	putchar(',');
-	putchar(' ');
 	return (0);
 }
 
