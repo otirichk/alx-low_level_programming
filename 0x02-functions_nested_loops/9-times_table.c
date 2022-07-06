@@ -8,12 +8,14 @@
 
 void times_table(void)
 {
-	int Mult;
+	int Mult1, Mult2, Comp;
 
-	for (Mult = 0; Mult <= 9; Mult++)
+	for (Mult1 = 0; Mult1 <= 9; Mult1++)
 	{
-		Mult = (Mult * 9);
-		_putchar(Mult + '0');
+		for (Mult2 = 0; Mult2 <= 9; Mult2++)
+		{
+			Comp = (Mult1 * Mult2)
+		_putchar(Comp + '0');
 		_putchar(',');
 		_putchar(' ');
 	}
