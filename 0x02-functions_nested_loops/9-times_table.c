@@ -14,6 +14,8 @@ void times_table(void)
 	{
 		for (Mult2 = 0; Mult2 <= 9; Mult2++)
 		{
+			_putchar(',');
+			_putchar(' ');
 			Comp = (Mult1 * Mult2);
 			if (Comp >= 10)
 			{
@@ -25,8 +27,6 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(Comp + '0');
 			}
-				_putchar(',');
-				_putchar(' ');
 		}
 		_putchar('\n');
 	}
