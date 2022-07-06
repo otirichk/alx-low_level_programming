@@ -25,8 +25,8 @@ void times_table(void)
 
 			if (Comb <= 9)
 			{
-				_putchar(Comb + '0');
 				_putchar(' ');
+				_putchar(Comb + '0');
 			}
 			else
 			{
