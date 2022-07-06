@@ -28,8 +28,8 @@ void times_table(void)
 			if (Mult2 < 9)
 			{
 				_putchar(',');
+				_putchar(' ');
 			}
-			_putchar(' ');
 		}
 		_putchar('\n');
 	}
