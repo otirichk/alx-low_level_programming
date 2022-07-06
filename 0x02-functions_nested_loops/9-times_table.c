@@ -1,37 +1,36 @@
 #include "main.h"
 
 /**
- * times_table - prints the multiplication table of 9
+ * times_table - Prints the multiplication table from 0 to 9
  *
- * Return: void
+ * Return: 0
+ *
  */
+
 
 void times_table(void)
 {
-	int Mult1, Mult2, Comp;
+	int Mult1, Mult2, comb;
 
 	for (Mult1 = 0; Mult1 <= 9; Mult1++)
 	{
-		for (Mult2 = 0; Mult2 <= 9; Mult2++)
+		_putchar('0');
+
+		for (Mult2 = 1; Mult2 <= 9; Mult2++)
 		{
-			Comp = (Mult1 * Mult2);
-			if (Comp >= 10)
+			-putchar(',');
+			_putchar(' ');
+
+			Comb = Mult1 * Mult2;
+
+			if (Comb <= 9)
 			{
-				_putchar ((Comp / 10) + '0');
-				_putchar((Comp % 10) + '0');
+				_putchar (' ');
 			}
 			else
 			{
-				_putchar(' ');
-				_putchar(Comp + '0');
-			}
-			if (Mult2 < 9)
-			{
-				_putchar(',');
-			}
-			if (Mult2 > 0 && Mult2 < 9)
-			{
-				_putchar(' ');
+				_putchar((Comb / 10) + '0');
+				_putchar((Comb % 10) + '0');
 			}
 		}
 		_putchar('\n');
