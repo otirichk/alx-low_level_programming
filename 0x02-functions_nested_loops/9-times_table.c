@@ -10,7 +10,7 @@
 
 void times_table(void)
 {
-	int Mult1, Mult2, comb;
+	int Mult1, Mult2, Comb;
 
 	for (Mult1 = 0; Mult1 <= 9; Mult1++)
 	{
@@ -18,7 +18,7 @@ void times_table(void)
 
 		for (Mult2 = 1; Mult2 <= 9; Mult2++)
 		{
-			-putchar(',');
+			_putchar(',');
 			_putchar(' ');
 
 			Comb = Mult1 * Mult2;
