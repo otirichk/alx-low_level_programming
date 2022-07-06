@@ -13,3 +13,5 @@ This directory contains projects on functions and nested loops in C
 6-abs.c => prints the absolute value of an integer
 
 7-print_last_digit.c => prints the last digit of an integer
+
+8-24_hours.c => Prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
