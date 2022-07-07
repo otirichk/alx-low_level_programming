@@ -25,7 +25,7 @@ int main(void)
 		Num1 = Num2;
 		Num2 = Sum;
 
-		if (i == 49)
+		if (i == 50)
 		{
 			printf("\n");
 		}
