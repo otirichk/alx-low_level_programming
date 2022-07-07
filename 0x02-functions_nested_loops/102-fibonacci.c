@@ -14,15 +14,15 @@
 int main(void)
 {
 	int i;
-	unsigned int Num1 = 0;
-	unsigned int Num2 = 1;
-	unsigned int Sum;
+	unsigned long Num1 = 0;
+	unsigned long Num2 = 1;
+	unsigned long Sum;
 
 	for (i = 1; i < 50; i++)
 	{
 		Sum = Num1 + Num2;
 		printf("%lu, ", Sum);
-		Num1 = Num 2;
+		Num1 = Num2;
 		Num2 = Sum;
 
 		if (i == 49)
