@@ -29,6 +29,7 @@ void print_times_table(int n)
 				{
 					_putchar(' ');
 					_putchar((Comb % 10) + '0');
+				}
 				else if (Comb > 9 && Comb <= 99)
 				{
 					_putchar(' ');
@@ -44,4 +45,5 @@ void print_times_table(int n)
 			}
 			_putchar('\n');
 		}
+	}
 }
