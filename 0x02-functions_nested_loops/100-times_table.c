@@ -27,6 +27,7 @@ void print_times_table(int n)
 				if (Comb <= 9)
 				{
 					_putchar(' ');
+					_putchar(' ');
 					_putchar(Comb + '0');
 				}
 				else if (Comb <= 99)
