@@ -21,11 +21,15 @@ int main(void)
 	for (i = 1; i <= 50; i++)
 	{
 		Sum = Num1 + Num2;
-		printf("%lu, ", Sum);
+		printf("%lu", Sum);
 		Num1 = Num2;
 		Num2 = Sum;
 
-		if (i == 50)
+		if (i < 50)
+		{
+			printf(", ");
+		}
+		else 
 		{
 			printf("\n");
 		}
