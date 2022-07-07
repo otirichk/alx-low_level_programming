@@ -16,24 +16,24 @@ int main(void)
 	int i;
 	unsigned long Num1 = 0;
 	unsigned long Num2 = 1;
-	unsigned long Sum;
+	unsigned long Sum, n;
 
 	for (i = 1; i <= 50; i++)
 	{
 		Sum = Num1 + Num2;
 		Num1 = Num2;
 		Num2 = Sum;
-		if (sum < 4000000)
+		if (Sum < 4000000)
 		{
-			while (sum < 4000000)
+			while (Sum < 4000000)
 			{
 				if (n % 2 == 0)
 				{
-					printf("%lu" n);
+					printf("%lu", n);
 				}
 			}
 		}
-		if (sum > 4000000)
+		if (Sum > 4000000)
 		{
 			break;
 		}
