@@ -18,7 +18,7 @@ int main(void)
 	unsigned long Num2 = 1;
 	unsigned long Sum;
 
-	for (i = 1; i < 50; i++)
+	for (i = 1; i <= 50; i++)
 	{
 		Sum = Num1 + Num2;
 		printf("%lu, ", Sum);
@@ -28,10 +28,6 @@ int main(void)
 		if (i == 49)
 		{
 			printf("\n");
-		}
-		else
-		{
-			printf(", ");
 		}
 	}
 	return (0);
