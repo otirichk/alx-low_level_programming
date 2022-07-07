@@ -24,24 +24,18 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				Comb = Mult1 * Mult2;
-				if (Comb <= 9)
-				{
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(Comb + '0');
-				}
-				else if (Comb <= 99)
+			}
+				if (Comb <= 99)
 				{
 					_putchar(' ');
 					_putchar((Comb / 10) + '0');
-					_putchar((Comb % 10) + '0');
 				}
 				else
 				{
 					_putchar((Comb / 100) + '0');
-					_putchar((Comb / 10) + '0');
-					_putchar((Comb % 10) + '0');
+					_putchar((Comb / 10) % 10 + '0');
 				}
+				_putchar((Comb % 10) + '0');
 			}
 			_putchar('\n');
 		}
