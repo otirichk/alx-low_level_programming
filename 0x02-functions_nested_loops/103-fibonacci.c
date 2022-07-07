@@ -13,25 +13,24 @@
 
 int main(void)
 {
-	int i;
 	unsigned long Num1 = 0;
 	unsigned long Num2 = 1;
 	unsigned long Sum1, Sum2, n;
 
 	while (1)
 	{
-		Sum = Num1 + Num2;
+		Sum1 = Num1 + Num2;
 
 		if (Sum1 < 4000000)
 		{
 			if ((n % 2) == 0)
 			{
-				Sum2 += sum1;
+				Sum2 += Sum1;
 			}
 			Num1 = Num2;
 			Num2 = Sum1;
 		}
-		if (Sum > 4000000)
+		if (Sum1 > 4000000)
 		{
 			break;
 		}
