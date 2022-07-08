@@ -6,10 +6,12 @@
  * @a: first integer
  * @b: second integer
  *
+ * Return: mult
  */
 int mul(int a, int b)
 {
-	int mult;
+	int Mult;
+
 	Mult = a * b;
 
 	return (Mult);
