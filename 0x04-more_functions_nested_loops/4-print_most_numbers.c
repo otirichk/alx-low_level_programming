@@ -14,7 +14,7 @@ void print_most_numbers(void)
 
 	for (Num = 0; Num <= 9; Num++)
 	{
-		if (Num == 2 && Num == 4)
+		if (Num == 2 || Num == 4)
 		{
 			continue;
 		}
