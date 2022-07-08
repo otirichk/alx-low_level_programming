@@ -28,6 +28,7 @@ void more_numbers(void)
 				_putchar((Num2 % 10) + '0');
 			}
 		}
+		_putchar('\n');
 		count++;
 	}
 }
