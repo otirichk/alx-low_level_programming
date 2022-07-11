@@ -8,13 +8,13 @@
 
 void print_rev(char *s)
 {
-	int length, star;
+	int length = 0, star;
 
 	while (s[star++])
 	{
 		length++;
 	}
-	for (star = length -1; star >= 0; star--)
+	for (star = length - 1; star >= 0; star--)
 	{
 		_putchar(s[star]);
 	}
