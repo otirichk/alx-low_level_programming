@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncat - concatenate strings 
+ * _strncat - concatenate strings
  *
  * @dest: frist parameter
  * @src: second parameter
