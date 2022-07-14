@@ -9,24 +9,25 @@
  *
  */
 
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 	int n = 0, i;
 	int len = 13;
 	char special[] = {0, '\t', '\n', 32, 33, 34, 40, 41, 46, 59, 63, 123, 125};
 
-	while str[n]
+	while s[n]
 	{
 		int m = 0;
 
 		while (m < len)
 		{
-			if ((n == 0 || str[n - 1] == special[i]) && (str[n] >= 97 && str[n] <= 122))
+			if ((n == 0 || s[n - 1] == special[i]) && (s[n] >= 97 && s[n] <= 122))
 			{
-				str[n] -= 32;
+				s[n] -= 32;
 			}
 			i++
 		}
+		n++;
 	}
-	return (str);
+	return (s);
 }
