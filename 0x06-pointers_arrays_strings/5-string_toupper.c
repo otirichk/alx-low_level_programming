@@ -20,10 +20,6 @@ char *string_toupper(char *str)
 		{
 			str -= 32;
 		}
-		else
-		{
-			continue;
-		}
 		n++;
 	}
 	return (str);
