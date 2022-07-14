@@ -11,35 +11,21 @@
 
 char *cap_string(char *str)
 {
-	int n = 0;
+	int n = 0, i;
+	int len = 13;
+	char special[] = {0, '\t', '\n', 32, 33, 34, 40, 41, 46, 59, 63, 123, 125};
 
-	while (str[n])
+	while str[n]
 	{
-		while (!(str[n] >= 'a' && str[n] <= 'z'))
+		i = 0;
+		while (i < len)
 		{
-			n++;
+			if ((n == 0 || str[n - 1] == special[i]) && (str[n] >= 97 && str[n] <= 122))
+			{
+				str[n] -= 32;
+			}
+			i++
 		}
-		if (str[n - 1] == ' ' || str[n - 1] == '\t' || str[n - 1] == '\n')
-		{
-			str[n] -= 32;
-		}
-		else if (str[n - 1] == ',' || str[n - 1] == ';' || str[n - 1] == '.')
-		{
-			str[n] -= 32;
-		}
-		else if (str[n - 1] == '!' || str[n - 1] == '?' || str[n - 1] == '"')
-		{
-			str[n] -= 32;
-		}
-		else if (str[n - 1] == '(' || str[n - 1] == ')')
-		{
-			str[n] -= 32;
-		}
-		else if (str[n - 1] == '{' || str[n - 1] == '}' || n == 0)
-		{
-			str[n] -= 32;
-		}
-		n++
 	}
 	return (str);
 }
