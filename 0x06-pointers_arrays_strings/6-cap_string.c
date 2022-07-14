@@ -17,8 +17,9 @@ char *cap_string(char *str)
 
 	while str[n]
 	{
-		i = 0;
-		while (i < len)
+		int m = 0;
+
+		while (m < len)
 		{
 			if ((n == 0 || str[n - 1] == special[i]) && (str[n] >= 97 && str[n] <= 122))
 			{
