@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * strcat - concatenates two strings 
+ * strcat - concatenates two strings
  *
- * @dest: a pointer to the string 
+ * @dest: a pointer to the string
  * @src: the string being appended to dest
  *
  * Return: a pointer to the dest
@@ -12,7 +12,7 @@
 
 char *strcat(char *dest, char *src)
 {
-	int count, int len = 0;
+	int count, len = 0;
 
 	while (dest[len])
 	{
