@@ -15,7 +15,7 @@ char *cap_string(char *s)
 	int len = 13;
 	char special[] = {0, '\t', '\n', 32, 33, 34, 40, 41, 46, 59, 63, 123, 125};
 
-	while s[n]
+	while (s[n])
 	{
 		int m = 0;
 
