@@ -12,7 +12,7 @@
 
 char *string_toupper(char *str)
 {
-	int n = 0;
+	int n;
 
 	while (str[n])
 	{
