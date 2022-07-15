@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
  * cap_string - Capitalize strings
@@ -17,7 +19,7 @@ char *cap_string(char *str)
 
 	while (str[count])
 	{
-		if (count == 0 && str[n - 1] == special[i])
+		if (count == 0 && str[count - 1] == special[i])
 		{
 			str[count] -= 32;
 		}
