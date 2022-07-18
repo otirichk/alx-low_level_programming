@@ -10,6 +10,7 @@
 
 int _putchar(char c);
 
-void *_memset(void *s, int b, size_t n);
+
+char *_memset(void *s, char b, int n);
 
 #endif
