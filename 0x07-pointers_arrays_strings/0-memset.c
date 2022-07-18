@@ -10,14 +10,14 @@
  * Return: a pointer to the memory location filled
  *
  */
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, int b, size_t n)
 {
 	unsigned int count;
-	char mem_area = s;
+	unsigned char mem_area = s, val = b;
 
 	for (count = 0; count < n; count++)
 	{
-		mem_area[count] = b;
+		mem_area[count] = val;
 	}
 	return (mem_area);
 }
