@@ -2,7 +2,7 @@
 
 /**
  * _strpbrk - searches a string for a set of bytes
- * @s: the reference string 
+ * @s: the reference string
  *
  * @accept: the set of bytes
  *
@@ -12,21 +12,21 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int a = 0, b;
+	int num = 0, b;
 
-	while (s[a])
+	while (s[num])
 	{
 		b = 0;
 		while (accept[b])
 		{
-			is (s[s] == accept[b])
+			if (s[num] == accept[b])
 			{
-				s += a;
+				s += num;
 				return (s);
 			}
 			b++;
 		}
-		a++;
+		num++;
 	}
 	return ('\0');
 }
