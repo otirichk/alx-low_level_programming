@@ -20,7 +20,6 @@ char *_strstr(char *haystack, char *needle)
 			if (haystack[num1 + num2] != needle[num2])
 			{
 				break;
-
 			}
 			num2++;
 		}
