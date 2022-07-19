@@ -4,7 +4,7 @@
 /**
  * _strchr - ocates a character in a string
  *
- * @s: the string 
+ * @s: the string
  * @c: the first encountered character
  *
  * Return: pointer to c
