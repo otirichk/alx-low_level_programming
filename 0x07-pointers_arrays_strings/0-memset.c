@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>i
+#include <string.h>
 /**
  * _memset - fills memory with a constant byte.
  *
@@ -10,7 +10,7 @@
  * Return: a pointer to the memory location filled
  *
  */
-char *_memset(void *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int num;
 
