@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strchr - ocates a character in a string
@@ -24,5 +25,4 @@ char *_strchr(char *s, char c)
 			return (NULL);
 		}
 	}
-	return (0);
 }
