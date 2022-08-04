@@ -34,5 +34,5 @@ char *create_array(unsigned int size, char c)
 		S[count] = c;
 	}
 
-	return (0);
+	return (S);
 }
