@@ -58,7 +58,6 @@ int word_count(char *str)
 
 
 /**
-
  * strtow - Splits a string into words.
  * @str: The string to be split.
  *
@@ -84,7 +83,6 @@ char **strtow(char *str)
 	}
 
 	strings = malloc(sizeof(char *) * (words + 1));
-
 	if (strings == NULL)
 	{
 		return (NULL);
@@ -98,7 +96,6 @@ char **strtow(char *str)
 		}
 		letters = word_len(str + index);
 		strings[w] = malloc(sizeof(char) * (letters + 1));
-	
 		if (strings[w] == NULL)
 		{
 			for (; w >= 0; w--)
