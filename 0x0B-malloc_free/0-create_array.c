@@ -22,16 +22,16 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	s = (char *)malloc(size * sizeof(char));
+	S = (char *)malloc(size * sizeof(char));
 
-	if (s == NULL)
+	if (S == NULL)
 	{
 		return (NULL);
 	}
 
 	for (count = 0; count < size; count++)
 	{
-		size[count] = c;
+		S[count] = c;
 	}
 
 	return (0);
