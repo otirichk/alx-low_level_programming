@@ -1,4 +1,4 @@
-ifndef VAR_FUNC_H
+#ifndef VAR_FUNC_H
 
 #define VAR_FUNC_H
 
